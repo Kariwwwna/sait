@@ -1,0 +1,434 @@
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.shapka {
+	font-size: 13px;
+	text-align: center;
+	word-spacing: 43px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	
+}
+.glavn {
+	font-size: 45px;
+	line-height: 25px;
+	font-family: Open Sans;
+	padding-top: 30px;
+	padding-left: 270px;
+	font-weight: bold;
+	color: white;
+}
+
+.snizu {
+	font-size: 19px;
+	line-height: 25px;
+	font-family: Open Sans;
+	padding-top: 1px;
+	padding-left: 270px;
+	margin-top: -20px;
+	color: white;
+}
+.btn {
+  background-color: #8F00FF; 
+  color: white;              
+  padding: 21px 32px;        
+  border: none;              
+  border-radius: 5px;        
+  cursor: pointer;          
+  font-size: 14px;    
+  margin-left: 275px;
+  margin-top: 35px;   
+	
+}
+body {
+  background-image: url('fon2.jpg');
+  background-repeat: no-repeat;     
+  background-size: cover;          
+  background-attachment: fixed;     
+  background-position: center;      
+  top:0px;
+  overflow-x:hidden;
+  margin:0px;
+  padding-top:0px;
+  padding-left:0px;
+  padding-right:0px;
+  
+  
+}
+.grad2{
+	position:absolute;
+	width:100%;	
+	padding:0px;
+	z-index:-2;
+}
+.small-img {
+  width: 120px;   
+  height: auto;  
+  display: block;      
+  margin-left: 270px;   
+  margin-top: -340px;   
+}
+
+.novinki {
+	font-size: 28px;
+	line-height: 25px;
+	font-family: Open Sans;
+	padding-top: 40px;
+	padding-left: 310px;
+	font-weight: bold;
+	color: white;
+	margin-top: 520px;
+}
+  
+  .new{
+	  position: relative;
+  top: -1000px; 
+   margin-left: 570px;
+}
+.nomer{
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	color: white; 
+	position: absolute;
+    right: 280px;
+    margin: 15px;
+}
+.rabota{
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	color: white; 
+	position: absolute;
+    right: 255px;
+    margin: 40px;
+	
+}
+.grad {
+	position: absolute;
+	top: 0px;
+	left:0px;	
+	z-index: -1;
+	width: 100%;
+	filter: brightness(1.8) contrast(2.1) saturate(1.5);
+}
+
+
+
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 0px;
+  width: 280px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.info {
+  font-size: 14px;
+  color: #555;
+}
+
+.description {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.btn {
+  margin-top: auto;
+  padding: 12px;
+  background: #a400ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #7a00c4;
+}
+.black-section {
+background: black;       
+  color: white;           
+  padding: 200px 0;        
+  text-align: center;
+  width: 150%;             
+  margin-top: -255px;
+  margin-left: calc(-50vw + 50%);
+}
+
+
+
+
+
+.games-section {
+  padding-top: 80px; 
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 0px;
+  font-family: "Open Sans", sans-serif; 
+  color: white;
+  }
+
+
+
+.games-grid {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.game-card {
+  width: 350px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: left;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+}
+
+.game-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.game-card h3 {
+  margin: 15px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.game-card p {
+  margin: 0 15px 20px;
+  color: #b5b5b5;
+  font-size: 14px;
+}
+
+/* пагинация */
+.pagination {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.pagination p {
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.pages {
+  display: inline-flex;
+  gap: 8px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pages a {
+  display: inline-flex;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.pages a:hover {
+  background: #3a3a3a;
+  color: #fff;
+}
+
+.pages a.active {
+  background: linear-gradient(135deg, #7a2fff, #6a00ff);
+  color: #fff;
+}
+
+/* ===== БЛОК О НАС ===== */
+.about-section {
+   position: relative;
+  background: url('img/about-bg.jpg') center/cover no-repeat; /* ← твоя картинка на фоне */
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  
+}
+
+.about-section::before {
+  display: none; /* убираем затемнение */
+}
+
+.about-img {
+  width: 350px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.about-box {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(135deg, #7a2fff, #00aaff);
+  border-radius: 10px;
+  padding: 50px;
+  width: 420px;
+  color: #fff;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.about-box h2 {
+  margin-bottom: 15px;
+}
+
+.about-box p {
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.about-btn {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.about-btn {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.about-btn {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.about-img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.about-btn {
+  display: inline-block;
+  background: #fff;
+  color: #7a2fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background: #eee;
+}
+.fontt{
+	font-family: "Open Sans", sans-serif;
+	color:white;
+	padding-left:300px;
+}
+.fonttt{
+	font-family: "Open Sans", sans-serif;
+	color:white;
+}
+.fon22{
+	position:absolute;
+	z-index:-3;
+	width:100%;
+}
+/* адаптив */
+@media (max-width: 768px) {
+  .game-card {
+    width: 90%;
+  }
+  .about-box {
+    width: 90%;
+    transform: translateY(-40px);
+    padding: 30px;
+  }
+}
+
+
+
+
